@@ -11,6 +11,7 @@
 #import "RegularPrice.h"
 #import "ChildrenPrice.h"
 #import "NewReleasePrice.h"
+#import <objc/runtime.h>
 
 @interface Movie()
 @property (nonatomic,strong) Price *price;
@@ -43,6 +44,8 @@
         default:
             @throw @"Incorret Price code";
     }
+//    objc_setAssociatedObject(Price, MovieType, <#id  _Nullable value#>, <#objc_AssociationPolicy policy#>)
+    
 }
 - (instancetype)initWithTitle:(NSString *)title priceCode:(MovieType)priceCode;
 {

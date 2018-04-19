@@ -49,9 +49,7 @@
     operation.operatorB = @20;
     NSLog(@"%f",[operation getResult]);
     
-#elif 1
-
-    
+#elif 0
     Movie *movie = [Movie new];
     movie.title = @"title";
     movie.priceCode = MovieType_CHILDRENS;
@@ -64,9 +62,18 @@
     [cust setName:@"shuang"];
     [cust.rentalArr addObject:rental];
     NSLog(@"%@",[cust statement]);
+#elif 1
+    
+    NSDate *d1 = [[NSDate alloc]init];
+    
     
 #endif
 }
+
+- (void) newDateUpdate:(NSDate *)arg {
+    [arg da]
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
