@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Destination.h"
+#import "DelegatePattern.h"
+#import "OriginObj.h"
+#import "TShirts.h"
+#import "Finery.h"
+#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +23,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self DecoratorPatternUsage];
+
     return YES;
 }
 
+-(void)delegatePatternUsage {
+    //    MidMan(引入中间人) 连接 Destination <-> <delegation> <-> OriginObj
+    Destination *destination = [Destination new];
+    destination.name = @"hua hua";
+    DelegatePattern *delegation = [[DelegatePattern alloc]initWith:destination];
+    OriginObj *origin = [OriginObj new];
+    origin.delegate = delegation;
+    [origin sendGift];
+}
+
+- (void)DecoratorPatternUsage {
+    Person *component = [Person new];
+    component.name = @"小菜";
+    TShirts *tshirt = [[TShirts alloc]initWith:component];
+    [tshirt show];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

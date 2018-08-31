@@ -34,6 +34,14 @@
 		6590BA64203C4B9E00EDDBC9 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA63203C4B9E00EDDBC9 /* DesignPatternTests.m */; };
 		6590BA70203C4C0500EDDBC9 /* Secertary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA6F203C4C0500EDDBC9 /* Secertary.m */; };
 		6590BA73203C570B00EDDBC9 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA72203C570B00EDDBC9 /* StockObserver.m */; };
+		842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04C8212AB9B600365038 /* DelegatePattern.m */; };
+		842A04CC212AB9FE00365038 /* OriginObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CB212AB9FE00365038 /* OriginObj.m */; };
+		842A04CF212ABA4C00365038 /* Destination.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CE212ABA4C00365038 /* Destination.m */; };
+		84536A0F20EA2A5D005535CC /* binaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84536A0D20EA2A5D005535CC /* binaryTree.c */; };
+		84C8B283212BE4A500B13765 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B282212BE4A500B13765 /* Person.m */; };
+		84C8B286212BE4D600B13765 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B285212BE4D600B13765 /* Finery.m */; };
+		84C8B289212BF38B00B13765 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B288212BF38B00B13765 /* TShirts.m */; };
+		84C8B28C212BFB5700B13765 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B28B212BFB5700B13765 /* Command.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +107,22 @@
 		6590BA6F203C4C0500EDDBC9 /* Secertary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Secertary.m; sourceTree = "<group>"; };
 		6590BA71203C570B00EDDBC9 /* StockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
 		6590BA72203C570B00EDDBC9 /* StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
+		842A04C7212AB9B600365038 /* DelegatePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePattern.h; sourceTree = "<group>"; };
+		842A04C8212AB9B600365038 /* DelegatePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePattern.m; sourceTree = "<group>"; };
+		842A04CA212AB9FE00365038 /* OriginObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginObj.h; sourceTree = "<group>"; };
+		842A04CB212AB9FE00365038 /* OriginObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginObj.m; sourceTree = "<group>"; };
+		842A04CD212ABA4C00365038 /* Destination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Destination.h; sourceTree = "<group>"; };
+		842A04CE212ABA4C00365038 /* Destination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Destination.m; sourceTree = "<group>"; };
+		84536A0D20EA2A5D005535CC /* binaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binaryTree.c; sourceTree = "<group>"; };
+		84536A0E20EA2A5D005535CC /* binaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binaryTree.h; sourceTree = "<group>"; };
+		84C8B281212BE4A500B13765 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84C8B282212BE4A500B13765 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84C8B284212BE4D600B13765 /* Finery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		84C8B285212BE4D600B13765 /* Finery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		84C8B287212BF38B00B13765 /* TShirts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		84C8B288212BF38B00B13765 /* TShirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		84C8B28A212BFB5700B13765 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		84C8B28B212BFB5700B13765 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		D3E4D023AE942E2DD155F0BD /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		DB4AA463F2F17AD07EA02C23 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,6 +231,11 @@
 		6590BA49203C4B9E00EDDBC9 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				84EC8223213387660096128E /* Composite */,
+				84C8B28D212BFB8400B13765 /* Command */,
+				84C8B280212BE42000B13765 /* Decorator */,
+				842A04C6212AB99900365038 /* delegate */,
+				84536A0C20EA2A19005535CC /* dataStruct */,
 				650AA6022067D243002FD452 /* DuplicateObservedData */,
 				65197E552056B36800B55DC5 /* refactor */,
 				657F217D2052C2EE001DC727 /* factory */,
@@ -235,6 +264,57 @@
 				6590BA65203C4B9E00EDDBC9 /* Info.plist */,
 			);
 			path = DesignPatternTests;
+			sourceTree = "<group>";
+		};
+		842A04C6212AB99900365038 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				842A04C7212AB9B600365038 /* DelegatePattern.h */,
+				842A04C8212AB9B600365038 /* DelegatePattern.m */,
+				842A04CA212AB9FE00365038 /* OriginObj.h */,
+				842A04CB212AB9FE00365038 /* OriginObj.m */,
+				842A04CD212ABA4C00365038 /* Destination.h */,
+				842A04CE212ABA4C00365038 /* Destination.m */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		84536A0C20EA2A19005535CC /* dataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				84536A0E20EA2A5D005535CC /* binaryTree.h */,
+				84536A0D20EA2A5D005535CC /* binaryTree.c */,
+			);
+			path = dataStruct;
+			sourceTree = "<group>";
+		};
+		84C8B280212BE42000B13765 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				84C8B281212BE4A500B13765 /* Person.h */,
+				84C8B282212BE4A500B13765 /* Person.m */,
+				84C8B284212BE4D600B13765 /* Finery.h */,
+				84C8B285212BE4D600B13765 /* Finery.m */,
+				84C8B287212BF38B00B13765 /* TShirts.h */,
+				84C8B288212BF38B00B13765 /* TShirts.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		84C8B28D212BFB8400B13765 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				84C8B28A212BFB5700B13765 /* Command.h */,
+				84C8B28B212BFB5700B13765 /* Command.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		84EC8223213387660096128E /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 		8C16D2EC921B627DC48138A7 /* Frameworks */ = {
@@ -410,11 +490,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C8B286212BE4D600B13765 /* Finery.m in Sources */,
 				650AA6052067D2BE002FD452 /* IntervalWindow.m in Sources */,
 				657F217C205182BC001DC727 /* Dog.m in Sources */,
 				65197E6D205E9E3F00B55DC5 /* RegularPrice.m in Sources */,
+				84536A0F20EA2A5D005535CC /* binaryTree.c in Sources */,
 				6590BA70203C4C0500EDDBC9 /* Secertary.m in Sources */,
 				65197E582056C1CB00B55DC5 /* Movie.m in Sources */,
+				84C8B283212BE4A500B13765 /* Person.m in Sources */,
+				84C8B289212BF38B00B13765 /* TShirts.m in Sources */,
 				65197E54205564A700B55DC5 /* OperatorFactory.m in Sources */,
 				65197E6A205E9E2800B55DC5 /* Price.m in Sources */,
 				6590BA4F203C4B9E00EDDBC9 /* ViewController.m in Sources */,
@@ -423,13 +507,17 @@
 				65197E5E2056C20E00B55DC5 /* Customer.m in Sources */,
 				65197E70205E9E5400B55DC5 /* ChildrenPrice.m in Sources */,
 				6590BA73203C570B00EDDBC9 /* StockObserver.m in Sources */,
+				842A04CF212ABA4C00365038 /* Destination.m in Sources */,
 				65197E4E2054D67C00B55DC5 /* Operation.m in Sources */,
+				84C8B28C212BFB5700B13765 /* Command.m in Sources */,
+				842A04CC212AB9FE00365038 /* OriginObj.m in Sources */,
 				657F217320503216001DC727 /* Animal.m in Sources */,
 				65197E512054DF0900B55DC5 /* SubOperation.m in Sources */,
 				65197E4B2054D62900B55DC5 /* AddOperation.m in Sources */,
 				65197E5B2056C1EF00B55DC5 /* Rental.m in Sources */,
 				650AA6082067D423002FD452 /* LabelTextField.m in Sources */,
 				65197E73205E9E6900B55DC5 /* NewReleasePrice.m in Sources */,
+				842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */,
 				6590BA5A203C4B9E00EDDBC9 /* main.m in Sources */,
 				6590BA4C203C4B9E00EDDBC9 /* AppDelegate.m in Sources */,
 			);
@@ -585,6 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAX6W5TPM3;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongquehui.llzmh.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -600,6 +689,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAX6W5TPM3;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongquehui.llzmh.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
