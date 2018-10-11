@@ -32,8 +32,6 @@
 		6590BA57203C4B9E00EDDBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6590BA55203C4B9E00EDDBC9 /* LaunchScreen.storyboard */; };
 		6590BA5A203C4B9E00EDDBC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA59203C4B9E00EDDBC9 /* main.m */; };
 		6590BA64203C4B9E00EDDBC9 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA63203C4B9E00EDDBC9 /* DesignPatternTests.m */; };
-		6590BA70203C4C0500EDDBC9 /* Secertary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA6F203C4C0500EDDBC9 /* Secertary.m */; };
-		6590BA73203C570B00EDDBC9 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590BA72203C570B00EDDBC9 /* StockObserver.m */; };
 		842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04C8212AB9B600365038 /* DelegatePattern.m */; };
 		842A04CC212AB9FE00365038 /* OriginObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CB212AB9FE00365038 /* OriginObj.m */; };
 		842A04CF212ABA4C00365038 /* Destination.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CE212ABA4C00365038 /* Destination.m */; };
@@ -106,10 +104,6 @@
 		6590BA5F203C4B9E00EDDBC9 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6590BA63203C4B9E00EDDBC9 /* DesignPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternTests.m; sourceTree = "<group>"; };
 		6590BA65203C4B9E00EDDBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6590BA6E203C4C0500EDDBC9 /* Secertary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secertary.h; sourceTree = "<group>"; };
-		6590BA6F203C4C0500EDDBC9 /* Secertary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Secertary.m; sourceTree = "<group>"; };
-		6590BA71203C570B00EDDBC9 /* StockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
-		6590BA72203C570B00EDDBC9 /* StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
 		842A04C7212AB9B600365038 /* DelegatePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegatePattern.h; sourceTree = "<group>"; };
 		842A04C8212AB9B600365038 /* DelegatePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatePattern.m; sourceTree = "<group>"; };
 		842A04CA212AB9FE00365038 /* OriginObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginObj.h; sourceTree = "<group>"; };
@@ -169,6 +163,7 @@
 		65197E552056B36800B55DC5 /* refactor */ = {
 			isa = PBXGroup;
 			children = (
+				650AA6022067D243002FD452 /* DuplicateObservedData */,
 				65197E562056C1CB00B55DC5 /* Movie.h */,
 				65197E572056C1CB00B55DC5 /* Movie.m */,
 				65197E68205E9E2800B55DC5 /* Price.h */,
@@ -215,6 +210,7 @@
 				65197E53205564A700B55DC5 /* OperatorFactory.m */,
 			);
 			name = factory;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6590BA3E203C4B9E00EDDBC9 = {
@@ -240,31 +236,18 @@
 		6590BA49203C4B9E00EDDBC9 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				84DB36DC215251DE00130B39 /* MergeSort */,
-				84EC8223213387660096128E /* Composite */,
-				84C8B28D212BFB8400B13765 /* Command */,
-				84C8B280212BE42000B13765 /* Decorator */,
-				842A04C6212AB99900365038 /* delegate */,
+				84D55EB2216F35B600E02388 /* designpattern */,
 				84536A0C20EA2A19005535CC /* dataStruct */,
-				650AA6022067D243002FD452 /* DuplicateObservedData */,
 				65197E552056B36800B55DC5 /* refactor */,
-				657F217D2052C2EE001DC727 /* factory */,
-				657F2170205031C1001DC727 /* Observer */,
 				6590BA4A203C4B9E00EDDBC9 /* AppDelegate.h */,
 				6590BA4B203C4B9E00EDDBC9 /* AppDelegate.m */,
 				6590BA4D203C4B9E00EDDBC9 /* ViewController.h */,
 				6590BA4E203C4B9E00EDDBC9 /* ViewController.m */,
-				6590BA6E203C4C0500EDDBC9 /* Secertary.h */,
-				6590BA6F203C4C0500EDDBC9 /* Secertary.m */,
-				6590BA71203C570B00EDDBC9 /* StockObserver.h */,
-				6590BA72203C570B00EDDBC9 /* StockObserver.m */,
 				6590BA50203C4B9E00EDDBC9 /* Main.storyboard */,
 				6590BA53203C4B9E00EDDBC9 /* Assets.xcassets */,
 				6590BA55203C4B9E00EDDBC9 /* LaunchScreen.storyboard */,
 				6590BA58203C4B9E00EDDBC9 /* Info.plist */,
 				6590BA59203C4B9E00EDDBC9 /* main.m */,
-				8467A4DC215A0D2F00A2729F /* printGrapth.h */,
-				8467A4DD215A0D2F00A2729F /* printGrapth.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -272,6 +255,7 @@
 		6590BA62203C4B9E00EDDBC9 /* DesignPatternTests */ = {
 			isa = PBXGroup;
 			children = (
+				84D55EB3216F361C00E02388 /* printTest */,
 				6590BA63203C4B9E00EDDBC9 /* DesignPatternTests.m */,
 				6590BA65203C4B9E00EDDBC9 /* Info.plist */,
 			);
@@ -294,6 +278,7 @@
 		84536A0C20EA2A19005535CC /* dataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				84DB36DC215251DE00130B39 /* MergeSort */,
 				84D55EA7216F2FB600E02388 /* Stack.c */,
 				84D55EA8216F2FB600E02388 /* Stack.h */,
 				84D55EAE216F315500E02388 /* BinaryTree.c */,
@@ -322,6 +307,28 @@
 				84C8B28B212BFB5700B13765 /* Command.m */,
 			);
 			path = Command;
+			sourceTree = "<group>";
+		};
+		84D55EB2216F35B600E02388 /* designpattern */ = {
+			isa = PBXGroup;
+			children = (
+				657F2170205031C1001DC727 /* Observer */,
+				657F217D2052C2EE001DC727 /* factory */,
+				84EC8223213387660096128E /* Composite */,
+				84C8B28D212BFB8400B13765 /* Command */,
+				84C8B280212BE42000B13765 /* Decorator */,
+				842A04C6212AB99900365038 /* delegate */,
+			);
+			path = designpattern;
+			sourceTree = "<group>";
+		};
+		84D55EB3216F361C00E02388 /* printTest */ = {
+			isa = PBXGroup;
+			children = (
+				8467A4DC215A0D2F00A2729F /* printGrapth.h */,
+				8467A4DD215A0D2F00A2729F /* printGrapth.m */,
+			);
+			path = printTest;
 			sourceTree = "<group>";
 		};
 		84DB36DC215251DE00130B39 /* MergeSort */ = {
@@ -518,7 +525,6 @@
 				650AA6052067D2BE002FD452 /* IntervalWindow.m in Sources */,
 				657F217C205182BC001DC727 /* Dog.m in Sources */,
 				65197E6D205E9E3F00B55DC5 /* RegularPrice.m in Sources */,
-				6590BA70203C4C0500EDDBC9 /* Secertary.m in Sources */,
 				65197E582056C1CB00B55DC5 /* Movie.m in Sources */,
 				84C8B283212BE4A500B13765 /* Person.m in Sources */,
 				84C8B289212BF38B00B13765 /* TShirts.m in Sources */,
@@ -529,7 +535,6 @@
 				657F217920503311001DC727 /* Mouse.m in Sources */,
 				65197E5E2056C20E00B55DC5 /* Customer.m in Sources */,
 				65197E70205E9E5400B55DC5 /* ChildrenPrice.m in Sources */,
-				6590BA73203C570B00EDDBC9 /* StockObserver.m in Sources */,
 				842A04CF212ABA4C00365038 /* Destination.m in Sources */,
 				65197E4E2054D67C00B55DC5 /* Operation.m in Sources */,
 				84C8B28C212BFB5700B13765 /* Command.m in Sources */,
