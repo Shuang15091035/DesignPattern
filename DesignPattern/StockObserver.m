@@ -9,5 +9,7 @@
 #import "StockObserver.h"
 
 @implementation StockObserver
-
+- (void)update{
+    
+}
 @end

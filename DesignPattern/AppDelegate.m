@@ -23,11 +23,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    [self DecoratorPatternUsage];
-
+    NSString *url = @"19";
+    NSString *pattern2 = @"^0[1-9]|$";
+    NSRegularExpression *regularExpression = [[NSRegularExpression alloc]initWithPattern:pattern2 options:0 error:nil];
+    [regularExpression matchesInString:url options:0 range:NSMakeRange(0,url.length)];
     return YES;
 }
+
 
 -(void)delegatePatternUsage {
     //    MidMan(引入中间人) 连接 Destination <-> <delegation> <-> OriginObj

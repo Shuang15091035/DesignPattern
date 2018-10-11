@@ -37,11 +37,15 @@
 		842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04C8212AB9B600365038 /* DelegatePattern.m */; };
 		842A04CC212AB9FE00365038 /* OriginObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CB212AB9FE00365038 /* OriginObj.m */; };
 		842A04CF212ABA4C00365038 /* Destination.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A04CE212ABA4C00365038 /* Destination.m */; };
-		84536A0F20EA2A5D005535CC /* binaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84536A0D20EA2A5D005535CC /* binaryTree.c */; };
+		8467A4DE215A0D2F00A2729F /* printGrapth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467A4DD215A0D2F00A2729F /* printGrapth.m */; };
 		84C8B283212BE4A500B13765 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B282212BE4A500B13765 /* Person.m */; };
 		84C8B286212BE4D600B13765 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B285212BE4D600B13765 /* Finery.m */; };
 		84C8B289212BF38B00B13765 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B288212BF38B00B13765 /* TShirts.m */; };
 		84C8B28C212BFB5700B13765 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B28B212BFB5700B13765 /* Command.m */; };
+		84D55EAA216F2FB600E02388 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EA7216F2FB600E02388 /* Stack.c */; };
+		84D55EAF216F315500E02388 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EAE216F315500E02388 /* BinaryTree.c */; };
+		84D55EB1216F318100E02388 /* BinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EB0216F318100E02388 /* BinaryTree.h */; };
+		84DB36DF215251F000130B39 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB36DE215251F000130B39 /* MergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,8 +117,8 @@
 		842A04CB212AB9FE00365038 /* OriginObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginObj.m; sourceTree = "<group>"; };
 		842A04CD212ABA4C00365038 /* Destination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Destination.h; sourceTree = "<group>"; };
 		842A04CE212ABA4C00365038 /* Destination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Destination.m; sourceTree = "<group>"; };
-		84536A0D20EA2A5D005535CC /* binaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binaryTree.c; sourceTree = "<group>"; };
-		84536A0E20EA2A5D005535CC /* binaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binaryTree.h; sourceTree = "<group>"; };
+		8467A4DC215A0D2F00A2729F /* printGrapth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printGrapth.h; sourceTree = "<group>"; };
+		8467A4DD215A0D2F00A2729F /* printGrapth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printGrapth.m; sourceTree = "<group>"; };
 		84C8B281212BE4A500B13765 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		84C8B282212BE4A500B13765 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		84C8B284212BE4D600B13765 /* Finery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
@@ -123,6 +127,12 @@
 		84C8B288212BF38B00B13765 /* TShirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
 		84C8B28A212BFB5700B13765 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		84C8B28B212BFB5700B13765 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		84D55EA7216F2FB600E02388 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		84D55EA8216F2FB600E02388 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		84D55EAE216F315500E02388 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
+		84D55EB0216F318100E02388 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		84DB36DD215251F000130B39 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		84DB36DE215251F000130B39 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		D3E4D023AE942E2DD155F0BD /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		DB4AA463F2F17AD07EA02C23 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +241,7 @@
 		6590BA49203C4B9E00EDDBC9 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				84DB36DC215251DE00130B39 /* MergeSort */,
 				84EC8223213387660096128E /* Composite */,
 				84C8B28D212BFB8400B13765 /* Command */,
 				84C8B280212BE42000B13765 /* Decorator */,
@@ -253,6 +264,8 @@
 				6590BA55203C4B9E00EDDBC9 /* LaunchScreen.storyboard */,
 				6590BA58203C4B9E00EDDBC9 /* Info.plist */,
 				6590BA59203C4B9E00EDDBC9 /* main.m */,
+				8467A4DC215A0D2F00A2729F /* printGrapth.h */,
+				8467A4DD215A0D2F00A2729F /* printGrapth.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -282,8 +295,10 @@
 		84536A0C20EA2A19005535CC /* dataStruct */ = {
 			isa = PBXGroup;
 			children = (
-				84536A0E20EA2A5D005535CC /* binaryTree.h */,
-				84536A0D20EA2A5D005535CC /* binaryTree.c */,
+				84D55EA7216F2FB600E02388 /* Stack.c */,
+				84D55EA8216F2FB600E02388 /* Stack.h */,
+				84D55EAE216F315500E02388 /* BinaryTree.c */,
+				84D55EB0216F318100E02388 /* BinaryTree.h */,
 			);
 			path = dataStruct;
 			sourceTree = "<group>";
@@ -308,6 +323,15 @@
 				84C8B28B212BFB5700B13765 /* Command.m */,
 			);
 			path = Command;
+			sourceTree = "<group>";
+		};
+		84DB36DC215251DE00130B39 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				84DB36DD215251F000130B39 /* MergeSort.h */,
+				84DB36DE215251F000130B39 /* MergeSort.m */,
+			);
+			path = MergeSort;
 			sourceTree = "<group>";
 		};
 		84EC8223213387660096128E /* Composite */ = {
@@ -490,11 +514,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D55EB1216F318100E02388 /* BinaryTree.h in Sources */,
+				84D55EAF216F315500E02388 /* BinaryTree.c in Sources */,
 				84C8B286212BE4D600B13765 /* Finery.m in Sources */,
 				650AA6052067D2BE002FD452 /* IntervalWindow.m in Sources */,
 				657F217C205182BC001DC727 /* Dog.m in Sources */,
 				65197E6D205E9E3F00B55DC5 /* RegularPrice.m in Sources */,
-				84536A0F20EA2A5D005535CC /* binaryTree.c in Sources */,
 				6590BA70203C4C0500EDDBC9 /* Secertary.m in Sources */,
 				65197E582056C1CB00B55DC5 /* Movie.m in Sources */,
 				84C8B283212BE4A500B13765 /* Person.m in Sources */,
@@ -511,13 +536,16 @@
 				65197E4E2054D67C00B55DC5 /* Operation.m in Sources */,
 				84C8B28C212BFB5700B13765 /* Command.m in Sources */,
 				842A04CC212AB9FE00365038 /* OriginObj.m in Sources */,
+				84D55EAA216F2FB600E02388 /* Stack.c in Sources */,
 				657F217320503216001DC727 /* Animal.m in Sources */,
 				65197E512054DF0900B55DC5 /* SubOperation.m in Sources */,
 				65197E4B2054D62900B55DC5 /* AddOperation.m in Sources */,
 				65197E5B2056C1EF00B55DC5 /* Rental.m in Sources */,
 				650AA6082067D423002FD452 /* LabelTextField.m in Sources */,
 				65197E73205E9E6900B55DC5 /* NewReleasePrice.m in Sources */,
+				8467A4DE215A0D2F00A2729F /* printGrapth.m in Sources */,
 				842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */,
+				84DB36DF215251F000130B39 /* MergeSort.m in Sources */,
 				6590BA5A203C4B9E00EDDBC9 /* main.m in Sources */,
 				6590BA4C203C4B9E00EDDBC9 /* AppDelegate.m in Sources */,
 			);
@@ -704,6 +732,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAX6W5TPM3;
 				INFOPLIST_FILE = DesignPatternTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongquehui.llzmh.DesignPatternTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -719,6 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BAX6W5TPM3;
 				INFOPLIST_FILE = DesignPatternTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongquehui.llzmh.DesignPatternTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

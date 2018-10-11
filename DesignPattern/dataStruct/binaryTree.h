@@ -1,22 +1,31 @@
 //
-//  binaryTree.h
-//  DesignPattern
+//  BinaryTree.h
+//  MergeSortTest
 //
-//  Created by admin on 2018/7/2.
-//  Copyright © 2018年 llzmh.kongquehui.com. All rights reserved.
+//  Created by admin on 2018/10/8.
+//  Copyright © 2018年 liushuang.library. All rights reserved.
 //
 
-#ifndef binaryTree_h
-#define binaryTree_h
+#ifndef BinaryTree_h
+#define BinaryTree_h
+
+typedef int SElemType;
 
 #include <stdio.h>
 
-typedef struct BiTNode {
-    char data;
-    struct BiTNode *lchild;
-    struct BiTNode *rchild;
-}BiTNode,*BiTree;
-void initBiTree(BiTree T);
-void createBiTree(BiTNode *T);
 
-#endif /* binaryTree_h */
+typedef struct BiTNode {
+    SElemType data;
+    struct BiTNode *lchild,*rchild;
+}BTNode,*BTree;
+
+void initBiTree(BTree *T);
+void createBiTree(BTree *T);
+void preOrderTraverseRecursive(BTree T,void (*visit)(SElemType));
+void preOrderTraverseNonRecursive(BTree T, void (*visit)(SElemType));
+void inOrderTraverse(BTree T,void (*visit)(SElemType));
+void postOrderTraverse(BTree T,void (*visit)(SElemType));
+void levelOrderTraverse(BTree T,void (*visit)(SElemType));
+void visit(SElemType e);
+
+#endif /* BinaryTree_h */
