@@ -44,7 +44,6 @@
 		84C8B28C212BFB5700B13765 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B28B212BFB5700B13765 /* Command.m */; };
 		84D55EAA216F2FB600E02388 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EA7216F2FB600E02388 /* Stack.c */; };
 		84D55EAF216F315500E02388 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EAE216F315500E02388 /* BinaryTree.c */; };
-		84D55EB1216F318100E02388 /* BinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EB0216F318100E02388 /* BinaryTree.h */; };
 		84DB36DF215251F000130B39 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB36DE215251F000130B39 /* MergeSort.m */; };
 /* End PBXBuildFile section */
 
@@ -514,7 +513,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D55EB1216F318100E02388 /* BinaryTree.h in Sources */,
 				84D55EAF216F315500E02388 /* BinaryTree.c in Sources */,
 				84C8B286212BE4D600B13765 /* Finery.m in Sources */,
 				650AA6052067D2BE002FD452 /* IntervalWindow.m in Sources */,
