@@ -44,8 +44,6 @@
         default:
             @throw @"Incorret Price code";
     }
-//    objc_setAssociatedObject(Price, MovieType, <#id  _Nullable value#>, <#objc_AssociationPolicy policy#>)
-    
 }
 - (instancetype)initWithTitle:(NSString *)title priceCode:(MovieType)priceCode;
 {

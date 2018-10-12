@@ -7,14 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "Animal.h"
-#import "Cat.h"
-#import "Mouse.h"
-#import "Dog.h"
-#import "OperatorFactory.h"
-
-#import "Customer.h"
-#import "Movie.h"
+#import "Stack.h"
+#import "BinaryTree.h"
 
 @interface DesignPatternTests : XCTestCase
 
@@ -64,14 +58,20 @@
     NSLog(@"%@",[cust statement]);
 #elif 1
     
-    NSDate *d1 = [[NSDate alloc]init];
+    BTree tree = NULL;
+    BTree *treep = &tree;
+    BTNode node;
+    node.data = 10;
+    node.lchild = node.rchild = NULL;
+    tree = &node;
+    NSLog(@"%p,%p,%p",tree,*treep,&node);
+
+    initBiTree(&tree);
+    createBiTree(&tree);
+    preOrderTraverseRecursive(tree, visit);
     
     
 #endif
-}
-
-- (void) newDateUpdate:(NSDate *)arg {
-    [arg da]
 }
 
 - (void)testPerformanceExample {

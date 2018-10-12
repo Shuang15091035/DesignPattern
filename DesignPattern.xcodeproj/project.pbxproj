@@ -42,7 +42,10 @@
 		84C8B28C212BFB5700B13765 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B28B212BFB5700B13765 /* Command.m */; };
 		84D55EAA216F2FB600E02388 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EA7216F2FB600E02388 /* Stack.c */; };
 		84D55EAF216F315500E02388 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EAE216F315500E02388 /* BinaryTree.c */; };
+		84D55EB6216F37AC00E02388 /* RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EB5216F37AC00E02388 /* RegularExpression.m */; };
+		84D55EC3216F418B00E02388 /* BalanceTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EC1216F418B00E02388 /* BalanceTree.c */; };
 		84DB36DF215251F000130B39 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB36DE215251F000130B39 /* MergeSort.m */; };
+		84EE4EE021702F7600E44425 /* DSTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EE4EDE21702F7600E44425 /* DSTable.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +77,7 @@
 		65197E592056C1EF00B55DC5 /* Rental.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rental.h; sourceTree = "<group>"; };
 		65197E5A2056C1EF00B55DC5 /* Rental.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rental.m; sourceTree = "<group>"; };
 		65197E5C2056C20E00B55DC5 /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
-		65197E5D2056C20E00B55DC5 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		65197E5D2056C20E00B55DC5 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; usesTabs = 0; };
 		65197E68205E9E2800B55DC5 /* Price.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Price.h; sourceTree = "<group>"; };
 		65197E69205E9E2800B55DC5 /* Price.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Price.m; sourceTree = "<group>"; };
 		65197E6B205E9E3F00B55DC5 /* RegularPrice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularPrice.h; sourceTree = "<group>"; };
@@ -124,8 +127,14 @@
 		84D55EA8216F2FB600E02388 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		84D55EAE216F315500E02388 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		84D55EB0216F318100E02388 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		84D55EB4216F37AC00E02388 /* RegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularExpression.h; sourceTree = "<group>"; };
+		84D55EB5216F37AC00E02388 /* RegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpression.m; sourceTree = "<group>"; };
+		84D55EC1216F418B00E02388 /* BalanceTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BalanceTree.c; sourceTree = "<group>"; };
+		84D55EC2216F418B00E02388 /* BalanceTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceTree.h; sourceTree = "<group>"; };
 		84DB36DD215251F000130B39 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		84DB36DE215251F000130B39 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		84EE4EDE21702F7600E44425 /* DSTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSTable.c; sourceTree = "<group>"; };
+		84EE4EDF21702F7600E44425 /* DSTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTable.h; sourceTree = "<group>"; };
 		D3E4D023AE942E2DD155F0BD /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		DB4AA463F2F17AD07EA02C23 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,21 +172,9 @@
 		65197E552056B36800B55DC5 /* refactor */ = {
 			isa = PBXGroup;
 			children = (
+				84D55EB8216F390500E02388 /* reorangeData */,
+				84D55EB7216F38F200E02388 /* firstClass */,
 				650AA6022067D243002FD452 /* DuplicateObservedData */,
-				65197E562056C1CB00B55DC5 /* Movie.h */,
-				65197E572056C1CB00B55DC5 /* Movie.m */,
-				65197E68205E9E2800B55DC5 /* Price.h */,
-				65197E69205E9E2800B55DC5 /* Price.m */,
-				65197E6B205E9E3F00B55DC5 /* RegularPrice.h */,
-				65197E6C205E9E3F00B55DC5 /* RegularPrice.m */,
-				65197E6E205E9E5400B55DC5 /* ChildrenPrice.h */,
-				65197E6F205E9E5400B55DC5 /* ChildrenPrice.m */,
-				65197E71205E9E6900B55DC5 /* NewReleasePrice.h */,
-				65197E72205E9E6900B55DC5 /* NewReleasePrice.m */,
-				65197E592056C1EF00B55DC5 /* Rental.h */,
-				65197E5A2056C1EF00B55DC5 /* Rental.m */,
-				65197E5C2056C20E00B55DC5 /* Customer.h */,
-				65197E5D2056C20E00B55DC5 /* Customer.m */,
 			);
 			path = refactor;
 			sourceTree = "<group>";
@@ -278,6 +275,8 @@
 		84536A0C20EA2A19005535CC /* dataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				84EE4EDD21702F0F00E44425 /* dynamicSearchTable */,
+				84D55EC0216F416D00E02388 /* balanceTree */,
 				84DB36DC215251DE00130B39 /* MergeSort */,
 				84D55EA7216F2FB600E02388 /* Stack.c */,
 				84D55EA8216F2FB600E02388 /* Stack.h */,
@@ -327,8 +326,47 @@
 			children = (
 				8467A4DC215A0D2F00A2729F /* printGrapth.h */,
 				8467A4DD215A0D2F00A2729F /* printGrapth.m */,
+				84D55EB4216F37AC00E02388 /* RegularExpression.h */,
+				84D55EB5216F37AC00E02388 /* RegularExpression.m */,
 			);
 			path = printTest;
+			sourceTree = "<group>";
+		};
+		84D55EB7216F38F200E02388 /* firstClass */ = {
+			isa = PBXGroup;
+			children = (
+				65197E562056C1CB00B55DC5 /* Movie.h */,
+				65197E572056C1CB00B55DC5 /* Movie.m */,
+				65197E68205E9E2800B55DC5 /* Price.h */,
+				65197E69205E9E2800B55DC5 /* Price.m */,
+				65197E6B205E9E3F00B55DC5 /* RegularPrice.h */,
+				65197E6C205E9E3F00B55DC5 /* RegularPrice.m */,
+				65197E6E205E9E5400B55DC5 /* ChildrenPrice.h */,
+				65197E6F205E9E5400B55DC5 /* ChildrenPrice.m */,
+				65197E71205E9E6900B55DC5 /* NewReleasePrice.h */,
+				65197E72205E9E6900B55DC5 /* NewReleasePrice.m */,
+				65197E592056C1EF00B55DC5 /* Rental.h */,
+				65197E5A2056C1EF00B55DC5 /* Rental.m */,
+				65197E5C2056C20E00B55DC5 /* Customer.h */,
+				65197E5D2056C20E00B55DC5 /* Customer.m */,
+			);
+			path = firstClass;
+			sourceTree = "<group>";
+		};
+		84D55EB8216F390500E02388 /* reorangeData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = reorangeData;
+			sourceTree = "<group>";
+		};
+		84D55EC0216F416D00E02388 /* balanceTree */ = {
+			isa = PBXGroup;
+			children = (
+				84D55EC1216F418B00E02388 /* BalanceTree.c */,
+				84D55EC2216F418B00E02388 /* BalanceTree.h */,
+			);
+			path = balanceTree;
 			sourceTree = "<group>";
 		};
 		84DB36DC215251DE00130B39 /* MergeSort */ = {
@@ -345,6 +383,15 @@
 			children = (
 			);
 			path = Composite;
+			sourceTree = "<group>";
+		};
+		84EE4EDD21702F0F00E44425 /* dynamicSearchTable */ = {
+			isa = PBXGroup;
+			children = (
+				84EE4EDE21702F7600E44425 /* DSTable.c */,
+				84EE4EDF21702F7600E44425 /* DSTable.h */,
+			);
+			path = dynamicSearchTable;
 			sourceTree = "<group>";
 		};
 		8C16D2EC921B627DC48138A7 /* Frameworks */ = {
@@ -535,11 +582,13 @@
 				657F217920503311001DC727 /* Mouse.m in Sources */,
 				65197E5E2056C20E00B55DC5 /* Customer.m in Sources */,
 				65197E70205E9E5400B55DC5 /* ChildrenPrice.m in Sources */,
+				84EE4EE021702F7600E44425 /* DSTable.c in Sources */,
 				842A04CF212ABA4C00365038 /* Destination.m in Sources */,
 				65197E4E2054D67C00B55DC5 /* Operation.m in Sources */,
 				84C8B28C212BFB5700B13765 /* Command.m in Sources */,
 				842A04CC212AB9FE00365038 /* OriginObj.m in Sources */,
 				84D55EAA216F2FB600E02388 /* Stack.c in Sources */,
+				84D55EC3216F418B00E02388 /* BalanceTree.c in Sources */,
 				657F217320503216001DC727 /* Animal.m in Sources */,
 				65197E512054DF0900B55DC5 /* SubOperation.m in Sources */,
 				65197E4B2054D62900B55DC5 /* AddOperation.m in Sources */,
@@ -558,6 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D55EB6216F37AC00E02388 /* RegularExpression.m in Sources */,
 				6590BA64203C4B9E00EDDBC9 /* DesignPatternTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

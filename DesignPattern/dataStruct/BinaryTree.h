@@ -14,9 +14,9 @@ typedef int SElemType;
 #include <stdio.h>
 
 
-typedef struct BiTNode {
+typedef struct BTNode {
     SElemType data;
-    struct BiTNode *lchild,*rchild;
+    struct BTNode *lchild,*rchild;
 }BTNode,*BTree;
 
 void initBiTree(BTree *T);
