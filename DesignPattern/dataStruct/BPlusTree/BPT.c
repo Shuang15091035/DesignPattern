@@ -31,7 +31,34 @@ int search(BTree p, KeyType k){
     }
     return i;
 }
-Result searchBTree(BTree t, KeyType k);
+Result searchBTree(BTree t, KeyType k){
+    // 在m阶B_树T上查找关键字K，返回结果(pt,i,tag)。若查找成功，则特征值
+    // tag=1，指针pt所指结点中第i个关键字等于K;否则特征值tag=0，等于K的
+    // 关键字应插入在指针Pt所指结点中第i和第i+1个关键字之间。算法9.13
+    BTree p=t,q=NULL; // 初始化，p指向待查结点，q指向p的双亲
+    bool found = false;
+    int i=0;
+    Result r;
+    while(p && !found)
+    {
+        i=search(p,k); // p->node[i].key≤K<p->node[i+1].key
+        if(i>0 && p->node[i].key==k) // 找到待查关键字
+        found=true;
+        else{
+            q=p;
+            p=p->node[i].ptr;
+        }
+    }
+    r.i=i;
+    if(found){ // 查找成功
+        r.pt=p;
+        r.tag=1;
+    }else{ // 查找不成功，返回K的插入位置信息
+        r.pt=q;
+        r.tag=0;
+    }
+    return r;
+}
 void insert(BTree q,int i, Record *r, BTree ap){
     int j;
     for (j = q->keyNum; j > i; j--) //空出q->node[i+1]
@@ -69,12 +96,12 @@ void newRoot(BTree *T, Record *r, BTree ap){
     if((*T)->node[1].ptr)
         (*T)->node[1].ptr->parent=(*T);
 }
+//InsertBTree(t,&r[i],s.pt,s.i); Result s = searchBTree;
 void insertBTree(BTree t, Record *r, BTree q, int i){
     BTree ap = NULL;
     bool finished = false;
     int s;
-    Record *rx;
-    rx = r;
+    Record *rx = r;
     while (q && !finished) {
         insert(q, i, rx, ap);
         if (q->keyNum < M) {
