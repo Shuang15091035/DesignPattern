@@ -22,6 +22,6 @@ DSTree searchDSTable(DSTree node, SElemType key);
 bool searchDST(DSTree node, SElemType key, DSTree f, DSTree *p);
 bool insertDSTable(DSTree *node, SElemType e);
 bool deleteDSTable(DSTree node, SElemType e);
-void traverseDSTable(DSTree node);
+void traverseDSTable(DSTree node,void (*visit)(SElemType));
 
 #endif /* DSTable_h */

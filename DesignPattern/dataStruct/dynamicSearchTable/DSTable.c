@@ -86,7 +86,11 @@ bool deleteDSTable(DSTree node, SElemType e){
     }
     return true;
 }
-
-void traverseDSTable(DSTree node){
-    
+//InOrderTraverse
+void traverseDSTable(DSTree node, void (*visit)(SElemType)){
+    if (node) {
+        traverseDSTable(node->lchild,visit);
+        visit(node->data);
+        traverseDSTable(node->rchild, visit);
+    }
 }
