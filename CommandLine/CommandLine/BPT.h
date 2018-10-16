@@ -26,9 +26,9 @@ typedef struct BTNode{
     int keyNum;
     struct BTNode *parent;
     struct Node {
-        KeyType key;
-        struct BTNode *ptr;
-        Record *recptr;
+        KeyType key; //关键字向量
+        struct BTNode *ptr; //子树指针向量
+        Record *recptr; //记录指针向量
     }node[M+1];
 }BTNode,*BTree;
 typedef struct  {
@@ -41,7 +41,7 @@ void bPlusInitDSTable(BTree *DT);
 void bPlusDestoryDSTable(BTree *DT);
 int search(BTree p, KeyType k);
 Result searchBTree(BTree t, KeyType k);
-void insertBTree(BTree t, Record *r, BTree q, int i);
+void insertBTree(BTree *t, Record *r, BTree q, int i);
 void traverseDSTable(BTree dt, void(*visit)(BTNode, int));
 
 #endif /* BPT_h */

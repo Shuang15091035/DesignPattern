@@ -132,8 +132,8 @@
 		84D55EB5216F37AC00E02388 /* RegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpression.m; sourceTree = "<group>"; };
 		84D55EC1216F418B00E02388 /* BalanceTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BalanceTree.c; sourceTree = "<group>"; };
 		84D55EC2216F418B00E02388 /* BalanceTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceTree.h; sourceTree = "<group>"; };
-		84D7431E21746CC200A90719 /* BPT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BPT.c; sourceTree = "<group>"; };
-		84D7431F21746CC200A90719 /* BPT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPT.h; sourceTree = "<group>"; };
+		84D7431E21746CC200A90719 /* BPT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BPT.c; path = ../../../CommandLine/CommandLine/BPT.c; sourceTree = "<group>"; };
+		84D7431F21746CC200A90719 /* BPT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BPT.h; path = ../../../CommandLine/CommandLine/BPT.h; sourceTree = "<group>"; };
 		84DB36DD215251F000130B39 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		84DB36DE215251F000130B39 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		84EE4EDE21702F7600E44425 /* DSTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSTable.c; sourceTree = "<group>"; };
