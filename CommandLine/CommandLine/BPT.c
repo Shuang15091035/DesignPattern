@@ -119,19 +119,19 @@ void insertBTree(BTree *t, Record *r, BTree q, int i){
         newRoot(t, rx, ap); //
     }
 }
-void traverseDSTable(BTree DT, void(*visit)(BTNode, int)){
+void traverseBPlusDSTable(BTree DT, void(*visit)(BTNode, int)){
     // 初始条件:动态查找表DT存在，Visit是对结点操作的应用函数
     // 操作结果:按关键字的顺序对DT的每个结点调用函数Visit()一次且至多一次
     int i;
     if(DT) // 非空树
     {
         if(DT->node[0].ptr) // 有第0棵子树
-            traverseDSTable(DT->node[0].ptr,visit);
+            traverseBPlusDSTable(DT->node[0].ptr,visit);
         for(i=1;i<=DT->keyNum;i++)
         {
             visit(*DT,i);
             if(DT->node[i].ptr) // 有第i棵子树
-                traverseDSTable(DT->node[i].ptr,visit);
+                traverseBPlusDSTable(DT->node[i].ptr,visit);
         }
     }
 }

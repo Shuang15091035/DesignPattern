@@ -45,7 +45,6 @@
 		84D55EB6216F37AC00E02388 /* RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EB5216F37AC00E02388 /* RegularExpression.m */; };
 		84D55EC3216F418B00E02388 /* BalanceTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D55EC1216F418B00E02388 /* BalanceTree.c */; };
 		84D7432021746CC200A90719 /* BPT.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D7431E21746CC200A90719 /* BPT.c */; };
-		84DB36DF215251F000130B39 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB36DE215251F000130B39 /* MergeSort.m */; };
 		84EE4EE021702F7600E44425 /* DSTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EE4EDE21702F7600E44425 /* DSTable.c */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +115,8 @@
 		842A04CE212ABA4C00365038 /* Destination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Destination.m; sourceTree = "<group>"; };
 		8467A4DC215A0D2F00A2729F /* printGrapth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printGrapth.h; sourceTree = "<group>"; };
 		8467A4DD215A0D2F00A2729F /* printGrapth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printGrapth.m; sourceTree = "<group>"; };
+		84B8082D2176D66000C10D57 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		84B8082E2176D66000C10D57 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		84C8B281212BE4A500B13765 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		84C8B282212BE4A500B13765 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		84C8B284212BE4D600B13765 /* Finery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
@@ -134,8 +135,6 @@
 		84D55EC2216F418B00E02388 /* BalanceTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceTree.h; sourceTree = "<group>"; };
 		84D7431E21746CC200A90719 /* BPT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BPT.c; path = ../../../CommandLine/CommandLine/BPT.c; sourceTree = "<group>"; };
 		84D7431F21746CC200A90719 /* BPT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BPT.h; path = ../../../CommandLine/CommandLine/BPT.h; sourceTree = "<group>"; };
-		84DB36DD215251F000130B39 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
-		84DB36DE215251F000130B39 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		84EE4EDE21702F7600E44425 /* DSTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSTable.c; sourceTree = "<group>"; };
 		84EE4EDF21702F7600E44425 /* DSTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTable.h; sourceTree = "<group>"; };
 		D3E4D023AE942E2DD155F0BD /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
@@ -385,8 +384,8 @@
 		84DB36DC215251DE00130B39 /* MergeSort */ = {
 			isa = PBXGroup;
 			children = (
-				84DB36DD215251F000130B39 /* MergeSort.h */,
-				84DB36DE215251F000130B39 /* MergeSort.m */,
+				84B8082E2176D66000C10D57 /* MergeSort.h */,
+				84B8082D2176D66000C10D57 /* MergeSort.m */,
 			);
 			path = MergeSort;
 			sourceTree = "<group>";
@@ -611,7 +610,6 @@
 				65197E73205E9E6900B55DC5 /* NewReleasePrice.m in Sources */,
 				8467A4DE215A0D2F00A2729F /* printGrapth.m in Sources */,
 				842A04C9212AB9B600365038 /* DelegatePattern.m in Sources */,
-				84DB36DF215251F000130B39 /* MergeSort.m in Sources */,
 				6590BA5A203C4B9E00EDDBC9 /* main.m in Sources */,
 				6590BA4C203C4B9E00EDDBC9 /* AppDelegate.m in Sources */,
 			);

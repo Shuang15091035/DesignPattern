@@ -12,9 +12,8 @@
 void mergeSort(int sourceArr[], int length);
 
 /**
- int a[8] = {50, 10, 20, 30, 70, 40, 80, 60};
- int i, b[8];
- MergeSort(a, b, 0, 7);
+ int a[8] = {50, 10, 20, 30, 70, 40, 80, 60},i;
+ mergeSort(a,sizeof(a)/sizeof(int));
  for(i=0; i<8; i++)
  printf("%d ", a[i]);
  printf("\n");

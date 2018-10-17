@@ -8,18 +8,18 @@
 
 #import "MergeSort.h"
 
+//分治法
+@interface MergeSort()
+
+@end
+
 @implementation MergeSort
 
 void merge(int sourceArr[],int tempArr[], int startIndex, int midIndex, int endIndex)
 {
     int i = startIndex, j=midIndex+1, k = startIndex;
     while(i!=midIndex+1 && j!=endIndex+1)
-    {
-        if(sourceArr[i] > sourceArr[j])
-            tempArr[k++] = sourceArr[j++];
-        else
-            tempArr[k++] = sourceArr[i++];
-    }
+        tempArr[k++] = sourceArr[i] > sourceArr[j]? sourceArr[j++] : sourceArr[i++];
     while(i != midIndex+1)
         tempArr[k++] = sourceArr[i++];
     while(j != endIndex+1)
@@ -43,4 +43,13 @@ void mergeSort(int sourceArr[], int length) {
     mergeSortInter(sourceArr, interSourceArr, 0, length);
 }
 
+
+void mergeSortSplit(int sourceArr[], int tempArr[], int starti, int endi) {
+    if (starti < endi) {
+        int midi = (starti + endi)/2;
+        mergeSortSplit(sourceArr, tempArr, starti, midi);
+        mergeSortSplit(sourceArr, tempArr, midi+1, endi);
+        merge(sourceArr, tempArr, starti, midi, endi);
+    }
+}
 @end
