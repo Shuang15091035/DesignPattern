@@ -10,13 +10,17 @@
 #include <stdlib.h>
 #include <limits.h>
 
+/**
+ K路归并的思想，对已有的K路文件数据排序，对K路键值创建一个败者树，while(当有元素写入到最终文件中，从文件中继续读取新的数组，调整败者树)
+ */
+
 extern FILE *fp[k+1]; // k+1个文件指针(fp[k]为大文件指针)，全局变量
 extern External b; // 全局变量
 
 void input(int i, KeyType *key) {
     // 从第i个文件(第i个归并段)读入该段当前第1个记录的关键字到外结点
     fread(key, sizeof(KeyType), 1, fp[i]);
-    printf("%d\n",*key);
+//    printf("%d\n",*key);
 }
 
 void output(int i){
@@ -29,12 +33,11 @@ void output(int i){
 
 void adjustLoserTree(LoserTree ls, int s) {
     // 沿从叶子结点b[s]到根结点ls[0]的路径调整败者树。算法11.2
-    int i,t;
-    t = (s+k)/2; // ls[t]是b[s]的双亲结点
-    while (t>0) {
-        if (b[s].key>b[ls[t]].key) {
+    int i,t = (s+k)/2; //s 节点元素的父节点
+    while (t > 0) {
+        if (b[s].key > b[ls[t]].key) {
             i = s;
-            s = ls[t]; // s指示新的胜者
+            s = ls[t];
             ls[t] = i;
         }
         t = t/2;
@@ -47,7 +50,7 @@ void createLoserTree(LoserTree ls) {
     int i;
     b[k].key = INT_MIN;
     for (i = 0; i < k; ++i) {
-        ls[i] = k;// 设置ls中“败者”的初值
+        ls[i] = k+1;// 设置ls中“败者”的初值
     }
     for (i = k-1; i >= 0; --i) {
         adjustLoserTree(ls, i); // 依次从b[k-1]，b[k-2]，⋯，b[0]出发调整败者

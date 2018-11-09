@@ -118,12 +118,13 @@ void ExternalSortTest() {
             printf("\n");
     }
     printf("\n");
+    
     rewind(fp[k]);
     // 使fp[k]的指针重新返回大文件fori的起始位置，以便重新读入内存，产生有序的子文件
     for(i=0;i<k;i++) // 将大文件fori的数据分成k组，每组N个数据
     { // 排序后分别存到小文件f0，f1，⋯
         fread(&l.r[1],sizeof(RedType),N,fp[k]); // 将大文件fori的N个数据读入l
-        l.length=N;
+        l.length=N; //3
         InsertSort(&l); // 对l进行内部排序
         itoa(i,s,10); // 生成k个文件名f0，f1，f2，⋯
         strcpy(fname[i],"f");
@@ -157,7 +158,7 @@ void ExternalSortTest() {
     fclose(fp[k]); // 关闭文件fout
     fp[k]=fopen(fout,"rb"); // 以读的方式打开大文件fout验证排序
     printf("排序后的大文件的记录为\n");
-    for(i=1;i<=N*k+1;i++)
+    for(i=1;i <=N*k;i++)
     {
         fread(&t,sizeof(RedType),1,fp[k]);
         print(t);

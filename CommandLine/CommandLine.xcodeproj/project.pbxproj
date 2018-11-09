@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B3034821788652003DB24D /* DSFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B3034621788652003DB24D /* DSFile.c */; };
 		84B808312176DA9B00C10D57 /* KRouteMergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B8082F2176DA9B00C10D57 /* KRouteMergeSort.c */; };
 		84E1494521757C7A00860FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1494421757C7A00860FF7 /* main.m */; };
 		84E1495321757CF500860FF7 /* BPT.c in Sources */ = {isa = PBXBuildFile; fileRef = 84E1495121757CF500860FF7 /* BPT.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84B3034621788652003DB24D /* DSFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSFile.c; sourceTree = "<group>"; };
+		84B3034721788652003DB24D /* DSFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFile.h; sourceTree = "<group>"; };
 		84B8082F2176DA9B00C10D57 /* KRouteMergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KRouteMergeSort.c; sourceTree = "<group>"; };
 		84B808302176DA9B00C10D57 /* KRouteMergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRouteMergeSort.h; sourceTree = "<group>"; };
 		84E1494121757C7A00860FF7 /* CommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,8 @@
 				84E1494421757C7A00860FF7 /* main.m */,
 				84B8082F2176DA9B00C10D57 /* KRouteMergeSort.c */,
 				84B808302176DA9B00C10D57 /* KRouteMergeSort.h */,
+				84B3034621788652003DB24D /* DSFile.c */,
+				84B3034721788652003DB24D /* DSFile.h */,
 			);
 			path = CommandLine;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B3034821788652003DB24D /* DSFile.c in Sources */,
 				84E1495321757CF500860FF7 /* BPT.c in Sources */,
 				84E1494521757C7A00860FF7 /* main.m in Sources */,
 				84B808312176DA9B00C10D57 /* KRouteMergeSort.c in Sources */,
