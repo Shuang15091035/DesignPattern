@@ -1,0 +1,20 @@
+server:
+  port: 7021
+spring:
+  application:
+    name: MainProject
+  rabbitmq:
+    username: user_shuang
+    host: 127.0.0.1
+    port: 5672
+    password: 123
+    virtual-host: /shuang
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

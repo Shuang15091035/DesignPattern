@@ -1,0 +1,13 @@
+spring:
+  cloud:
+      config:
+        uri: http://localhost:7020/
+        discovery:
+          service-id: Config-Server
+          enabled: true
+        label: master
+        profile: prod
+        name: service
+      bus:
+        refresh:
+          enabled: true

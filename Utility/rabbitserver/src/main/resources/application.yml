@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: rabbit-server
+  rabbitmq:
+    username: user_shuang
+    host: 127.0.0.1
+    port: 5672
+    password: 123
+    virtual-host: /shuang
+    listener:
+      direct:
+        acknowledge-mode: manual
+server:
+  port: 7022
