@@ -9,18 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RefreshScope
 public class ShowController {
 
     @Autowired
     private DataSourceConfig dataSourceConfig;
-
-//    @Value("${name}") // git配置文件里的key
-//    private String name;
-//    @Value("${age}")
-//    private String age;
-//    @Value("${version}")
-//    private String version;
 
     @RequestMapping(value = "/hi")
     public String hi(){

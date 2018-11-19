@@ -9,6 +9,8 @@ spring:
     port: 5672
     password: 123
     virtual-host: /shuang
+  profiles:
+    active: @build.dev@
 eureka:
   client:
     service-url:
@@ -17,4 +19,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: bus-refresh

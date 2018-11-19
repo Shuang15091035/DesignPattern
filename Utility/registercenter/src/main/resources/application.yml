@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: RegisterCenter
+  profiles:
+    active: @build.dev@
 eureka:
   client:
     fetch-registry: false

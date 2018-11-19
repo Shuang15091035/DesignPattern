@@ -71,6 +71,31 @@
 		</dependency>
 	</dependencies>
 
+
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<build.dev>dev</build.dev>
+			</properties>
+		</profile>
+		<profile>
+			<id>test</id>
+			<properties>
+				<build.dev>test</build.dev>
+			</properties>
+		</profile>
+		<profile>
+			<id>prod</id>
+			<properties>
+				<build.dev>prod</build.dev>
+			</properties>
+		</profile>
+	</profiles>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -79,22 +104,13 @@
 			</plugin>
 		</plugins>
 
-		<!--资源拷贝-->
-		<!--<resources>-->
-			<!--<resource>-->
-				<!--<targetPath>${project.build.directory}/classes</targetPath>-->
-				<!--<directory>${project.basedir}/src/main/env/${build.env}/</directory>-->
-				<!--<includes>-->
-					<!--<include>*</include>-->
-				<!--</includes>-->
-				<!--<filtering>true</filtering>-->
-			<!--</resource>-->
-			<!--<resource>-->
-				<!--<targetPath>${project.build.directory}/classes</targetPath>-->
-				<!--<directory>${project.basedir}/src/main/resources/</directory>-->
-				<!--<filtering>true</filtering>-->
-			<!--</resource>-->
-		<!--</resources>-->
+		<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>${project.basedir}/src/main/resources/</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 	</build>
 
 

@@ -6,7 +6,7 @@ spring:
           service-id: Config-Server
           enabled: true
         label: master
-        profile: prod
+        profile: @build.dev@
         name: service
       bus:
         refresh:
