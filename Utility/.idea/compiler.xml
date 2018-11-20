@@ -10,16 +10,18 @@
         <module name="mainproject" />
         <module name="rabbitserver" />
         <module name="registercenter" />
+        <module name="unit-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config-server" target="1.8" />
-      <module name="mainproject" target="1.8" />
+      <module name="config-server" target="1.5" />
+      <module name="mainproject" target="1.5" />
       <module name="quick-rabbitmq" target="1.8" />
-      <module name="rabbitserver" target="1.8" />
-      <module name="registercenter" target="1.8" />
+      <module name="rabbitserver" target="1.5" />
+      <module name="registercenter" target="1.5" />
+      <module name="unit-test" target="1.8" />
       <module name="Utility" target="1.8" />
-      <module name="utility" target="1.8" />
+      <module name="utility" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

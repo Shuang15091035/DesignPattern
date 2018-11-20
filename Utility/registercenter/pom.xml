@@ -43,19 +43,19 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<build.dev>dev</build.dev>
+				<build.env>dev</build.env>
 			</properties>
 		</profile>
 		<profile>
 			<id>test</id>
 			<properties>
-				<build.dev>test</build.dev>
+				<build.env>test</build.env>
 			</properties>
 		</profile>
 		<profile>
 			<id>prod</id>
 			<properties>
-				<build.dev>prod</build.dev>
+				<build.env>prod</build.env>
 			</properties>
 		</profile>
 	</profiles>
@@ -67,6 +67,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>${project.basedir}/src/main/resources/</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 	</build>
 
 </project>

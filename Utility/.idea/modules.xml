@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/mainproject/mainproject.iml" filepath="$PROJECT_DIR$/mainproject/mainproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitserver/rabbitserver.iml" filepath="$PROJECT_DIR$/rabbitserver/rabbitserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/registercenter/registercenter.iml" filepath="$PROJECT_DIR$/registercenter/registercenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-test/unit-test.iml" filepath="$PROJECT_DIR$/unit-test/unit-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/utility.iml" filepath="$PROJECT_DIR$/utility.iml" />
     </modules>
   </component>

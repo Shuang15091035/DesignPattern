@@ -1,22 +1,18 @@
-package com.utility.rabbitserver;
+package com.utility.unittest;
 
-import com.utility.rabbitserver.services.MsgProduct;
+import com.utility.unittest.service.SortTree;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RabbitserverApplicationTests {
+public class UnitTestApplicationTests {
 
-	Logger logger = LoggerFactory.getLogger(this.getClass());
 	@Autowired
-	private MsgProduct msgProduct;
-	private static final int threadcount = 100;
+	private SortTree sortTree;
 
 	@Test
 	public void contextLoads() throws InterruptedException {
@@ -28,10 +24,13 @@ public class RabbitserverApplicationTests {
 //			student.setAge(12);
 //			msgProduct.sendMsg(student);
 //		}
-
-//		MQ 解耦，肖峰，异步处理，日志处理
-//		vhost管理
+		int[] arrays = new int[]{1, 7, 2, 6, 5};
+		for (int value : arrays) {
+//			sortTree.insertBTValue(value);
+			sortTree.insertBTValue(value);
+		}
+		final int a = 10;
+		sortTree.printTree();
+		System.out.println("测试完成");
 	}
-
-
 }

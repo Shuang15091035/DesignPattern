@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/mainproject/pom.xml" />
         <option value="$PROJECT_DIR$/registercenter/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitserver/pom.xml" />
+        <option value="$PROJECT_DIR$/unit-test/pom.xml" />
       </list>
     </option>
   </component>
